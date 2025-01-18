@@ -51,7 +51,8 @@ In above implementation, when updating the left pointer, **make sure you are del
 
 It would be wrong to delete the recent occurrence of character pointed by left pointer, character at left may not be the least recent one.
 
-e.g. {1,2,1,2,1,3,3,3,3,3}, when seeing value 3, we should delete value 2 (because that was the least recent from 3 values in the map), and we should move the left pointer to point to 1.
+e.g. {1,2,1,2,1,3,3,3,3,3}, **when seeing value 3, we should delete value 2 (because that was the least recent from 3 values in the map), and we should move the left pointer to point to 1.**
+
 So answer for this text case would be 6.
 
 
