@@ -53,7 +53,7 @@ It would be wrong to delete the recent occurrence of character pointed by left p
 
 e.g. {1,2,1,2,1,3,3,3,3,3}, **when seeing value 3, we should delete value 2 (because that was the least recent from 3 values in the map), and we should move the left pointer to point to 1.**
 
-So answer for this text case would be 6.
+So answer in this case would be 6.
 
 
 # References :
