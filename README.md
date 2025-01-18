@@ -48,3 +48,5 @@ class Solution {
 
 # References :
 https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/editorial
+
+https://github.com/eMahtab/longest-substring-with-at-most-k-distinct-characters
